@@ -1,0 +1,66 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Docker Compose App",
+    "description": "An API running in Docker Compose",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/dogs": {
+      "get": {
+        "description": "List all dogs",
+        "responses": {}
+      },
+      "post": {
+        "description": "Add a dog",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dog"
+              }
+            }
+          }
+        },
+        "responses": {}
+      }
+    },
+    "/dogs/{id}": {
+      "get": {
+        "description": "Get a specific dog",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {}
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Dog": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "breed": {
+            "type": "string"
+          },
+          "age": {
+            "type": "integer"
+          },
+          "isGoodBoy": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}
