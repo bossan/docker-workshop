@@ -10,6 +10,16 @@ app.use(express.json());
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
+app.get("/", async (req, res) => {
+  res.setHeader("Content-Type", "text/html");
+  res.send(
+    Buffer.from(
+      '<html><body><a href="/api-docs">Go to API Docs</a></body></html>'
+    )
+  );
+  return res.status(200);
+});
+
 app.get("/dogs", async (req, res) => {
   const allDogs = await Dog.find();
   return res.status(200).json(allDogs);
