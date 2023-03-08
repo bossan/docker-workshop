@@ -6,5 +6,4 @@
 
 ---
 
-[Play with Docker](https://labs.play-with-docker.com)
-[Dockerlabs](https://dockerlabs.collabnix.com/)
+Can't run Docker on your machine? Use [Play with Docker](https://labs.play-with-docker.com).

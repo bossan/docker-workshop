@@ -5,7 +5,19 @@
 Run the following command:
 
 ```bash
-docker pull hello-world
+docker pull hello-world:latest
+```
+
+- `pull` because we want to download (pull) the image from Docker Hub.
+- `hello-world`: the name of the image
+- `latest`: the tag/version of the image (we want the newest version)
+
+## List your local images
+
+Run the following command:
+
+```bash
+docker images
 ```
 
 ## Run the image
@@ -15,6 +27,9 @@ Run the following command:
 ```bash
 docker run hello-world
 ```
+
+- `run`: because we want to run a container
+- `hello-world`: is the name of the image we downloaded earlier
 
 ## Watch it run
 
@@ -42,3 +57,14 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
+
+## Delete an image
+
+Images take up some space on your drive. It is wise to clean up unused images. You can do this with the following command:
+
+```bash
+docker rmi hello-world
+```
+
+- `rmi`: because we want to remove an image
+- `hello-world`: this is the name of the image we want to remove.
