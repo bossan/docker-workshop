@@ -5,5 +5,5 @@
 Run the following command:
 
 ```
-docker build .
+docker build -t workshop-app .
 ```
