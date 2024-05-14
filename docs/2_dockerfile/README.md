@@ -1,5 +1,10 @@
 # Make your own image
 
+## Prerequisites
+
+1. Clone this repository `git clone https://github.com/bossan/docker-workshop`
+2. Go to the folder **docker-workshop/examples/dockerfile**.
+
 ## Build an image from the Dockerfile
 
 Run the following command to build an image:

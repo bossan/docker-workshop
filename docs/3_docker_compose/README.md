@@ -1,8 +1,13 @@
 # Docker Compose
 
+## Prerequisites
+
+1. Clone this repository `git clone https://github.com/bossan/docker-workshop`
+2. Go to the folder **docker-workshop/examples/docker_compose**.
+
 ## The docker-compose file
 
-Look at the [docker-compose.yml](./docker-compose.yml) file.
+Look at the [docker-compose.yml](/examples/docker_compose/docker-compose.yml) file.
 
 It contains the following information:
 
