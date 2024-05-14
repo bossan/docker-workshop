@@ -6,3 +6,6 @@ baseurl: /docker-workshop/
 
 title: Docker Workshop
 
+description: Learn the basics of Docker
+
+author: Sander Bos
