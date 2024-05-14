@@ -7,7 +7,7 @@
 
 ## The docker-compose file
 
-Look at the [docker-compose.yml](/examples/docker_compose/docker-compose.yml) file.
+Look at the [docker-compose.yml](https://raw.githubusercontent.com/bossan/docker-workshop/main/examples/docker_compose/docker-compose.yml) file.
 
 It contains the following information:
 
