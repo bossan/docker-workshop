@@ -1,6 +1,6 @@
-# Running an existing image
+## Running an existing image
 
-## Pull an image from Docker hub
+### Pull an image from Docker hub
 
 Run the following command:
 
@@ -12,7 +12,7 @@ docker pull hello-world:latest
 - `hello-world`: the name of the image
 - `latest`: the tag/version of the image (we want the newest version)
 
-## List your local images
+### List your local images
 
 Run the following command:
 
@@ -20,7 +20,7 @@ Run the following command:
 docker images
 ```
 
-## Create and run a container
+### Create and run a container
 
 Run the following command:
 
@@ -31,7 +31,7 @@ docker run hello-world
 - `run`: because we want to run a container
 - `hello-world`: is the name of the image we downloaded earlier
 
-## Watch it run
+### Watch it run
 
 The output should look something like:
 
@@ -58,7 +58,7 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
-## Delete an image
+### Delete an image
 
 Images take up some space on your drive. It is wise to clean up unused images. You can do this with the following command:
 
