@@ -23,7 +23,7 @@ docker run -d -p 3000:3000 workshop-app
 - `run`: because we want to run a container
 - `-d`: to run it in 'detached' mode (runs in the background)
 - `-p 3000:3000`: means we enable port-forwarding from port `3000` on our local computer to `3000` in the container
-- `workshop-app`: the name of the image we created earlier
+- `workshop-app`: the tag of the image we created earlier
 
 ## Check running containers
 

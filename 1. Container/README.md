@@ -20,7 +20,7 @@ Run the following command:
 docker images
 ```
 
-## Run the image
+## Create and run a container
 
 Run the following command:
 
