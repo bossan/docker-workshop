@@ -6,4 +6,4 @@
 
 ---
 
-Can't run Docker on your machine? Use [Play with Docker](https://labs.play-with-docker.com).
+Can't run Docker on your machine? Use [Play with Docker](play_with_docker).
